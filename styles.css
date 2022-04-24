@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+
+  font-family: 'Roboto', sans-serif;  
+}
+
+:root {
+  --text: #0F1419;
+  --icons-text: #536471;
+  --border: #DADDDF;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.container-tweet {
+  width: 591px;
+  height: 161px;
+
+  display: flex;
+
+  border: 1px solid var --border;
+
+}
+
+.image {
+  padding: 17px 12px 96px 17px;
+}
+
+.content {
+  padding: 17px 0 0 0;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.main p {
+  font-size: 15px;
+  color: var(--text);
+  width: 430px;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  color: var(--icons-text);
+}
+
+.margin {
+  margin-top: 38px;
+}
+
+.box-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  height: 14px;
+}
+
+.box-retweet, .box-favorite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 73px;
+  height: 14px;
+}
+
+.box {
+  padding-right: 15px;
+}
+
+.verified {
+  margin-left: 3px;
+  width: 15px;
+  height: 15px;
+  padding-top: 2px;
+}
+
+.nickname {
+  margin-left: 6px;
+  color: var(--icons-text);
+  
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+
+  background: var(--icons-text);
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 5px;
+
+  border-radius: 50%;
+}
+
+.date {
+  margin-left: 5px;
+  color: var(--icons-text);
+}
